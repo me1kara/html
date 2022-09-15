@@ -1,0 +1,123 @@
+
+#base.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>base</title>
+    <base href="https://www.w3schools.com/">
+</head>
+<body>
+    <section>
+        <h1></h1>
+        <ul>
+            <li><a href="html/html_exercises.asp">ㅇㅇㅇㅇㅇ</a></li>
+            <li></li>
+        </ul>
+    </section>
+    
+</body>
+</html>
+
+#link.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    오오오오오ㅗㅇㄴ
+</body>
+</html>
+
+#sinmantic.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>header</header>
+    <nev>nav</nev>
+    <section>section
+        <article>article</article>
+        <article>article</article>
+    </section>
+    <aside>
+    </aside>
+    <footer>
+    </footer>
+</body>
+</html>
+
+#simantic2.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sigmantic2</title>
+    <style>
+        header, nav, section, aside, footer{background-color: salmon;}
+        a {background-color: aqua;}
+    </style>
+</head>
+<body>
+    <header>header</header><!--줄바꿈 block 태그-->
+    <nav>nav</nav>
+    <nav>nav</nav>
+    <section>section</section>
+    <aside>aside</aside>
+    <footer>footer</footer>
+    <a>a</a><!--줄바꿈x inline 태그-->
+    <a>a</a>
+    <a>a</a>
+</body>
+</html>
+
+#hn태그
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hn요소</title>
+</head>
+<body>
+    <h1>HTML5&CSS3</h1>
+    <h2>HTML5&CSS3</h2>
+    <h3>HTML5&CSS3</h3>
+    <h4>HTML5&CSS3</h4>
+    <h5>HTML5&CSS3</h5>
+    <h6>HTML5&CSS3</h6>
+    <p>HTML5&CSS3</p>
+</body>
+</html>
+
+#style.css
+body { background-color: lightyellow; }
+
+#address.html
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>address 요소</title>
+</head>
+<body><!--우편주소는 p태그, 연락처 정보는 address-->
+    <footer><p>서울시 마포구 상수동 324-1 한주빌딩 5층</p>
+        <address>
+            tel.02-2365-7858 seylvinim@gamil.com
+        </address>
+    </footer>   
+</body>
+</html>
